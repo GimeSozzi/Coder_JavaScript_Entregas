@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primera Entrega - Simulador interactivo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Simulador de Pedidos</h1>
+    <form id="pedidosForm">
+      <label for="producto">Producto:</label>
+      <select name="producto" id="producto">
+        <option value="pizza">Pizza - $6000.00</option>
+        <option value="hamburguesa">Hamburguesa - $8500</option>
+        <option value="bebida">Bebida - $1000</option>
+      </select>
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" name="cantidad" id="cantidad" min="1" value="1" />
+      <button type="button" onclick="agregarAlCarrito()">
+        Agregar al Carrito
+      </button>
+    </form>
+    <div id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="listaCarrito"></ul>
+      <p>Total: $ <span id="total"></span></p>
+      <button type="button" onclick="realizarPedido()">Realizar Pedido</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
