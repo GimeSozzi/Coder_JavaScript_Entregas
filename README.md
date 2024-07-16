@@ -18,7 +18,7 @@ El proyecto contiene los siguientes archivos:
 
 - `index.html`: Estructura principal de la página.
 - `styles.css`: Estilos para la página.
-- `miarchivo.js`: Lógica del simulador de pedidos.
+- `main.js`: Lógica del simulador de pedidos.
 
 ## Cómo Ejecutar
 
