@@ -58,7 +58,6 @@ function actualizarCarrito() {
   }
 
   //   Actualizar el total en el HTML
-
   document.getElementById("total").innerText = total;
 }
 
