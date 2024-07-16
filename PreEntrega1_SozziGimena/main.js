@@ -69,7 +69,7 @@ function realizarPedido() {
     alert("El carrito está vacío.");
   } else {
     // Mostrar un alerta indicando que el pedido fue realizado con éxito
-    alert("Pedido realizado con éxito!");
+    alert("Pedido realizado con éxito! El total a pagar es: $" + total);
     // Vacial el array del carrito
     carrito = [];
     // Reiniciar el total a 0
