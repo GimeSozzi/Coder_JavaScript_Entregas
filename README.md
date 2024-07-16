@@ -29,7 +29,7 @@ El proyecto contiene los siguientes archivos:
    `cd Coder_JavaScript_Entregas/PreEntrega1_SozziGimena`
 
 3. Abre `index.html` en tu navegador.
-   `open index.html`
+   `open index.html` o `start index.html`(windows)
 
 ## Uso
 
