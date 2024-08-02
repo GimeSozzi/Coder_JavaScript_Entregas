@@ -23,10 +23,11 @@ El proyecto contiene los siguientes archivos:
 ## Cómo Ejecutar
 
 1. Clona este repositorio.
-   `git clone https://github.com/GimeSozzi/Coder_JavaScript_Entregas.git`
+   `git clone https://github.com/GimeSozzi/PreEntrega1_JavaScript_SozziGimena.git`
+   `
 
 2. Navega al directorio del proyecto.
-   `cd Coder_JavaScript_Entregas/PreEntrega1_SozziGimena`
+   `cd PreEntrega1_JavaScript_SozziGimena`
 
 3. Abre `index.html` en tu navegador.
    `open index.html` o `start index.html`(windows)
